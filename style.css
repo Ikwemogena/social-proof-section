@@ -136,3 +136,63 @@ section p{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+
+
+  @media(max-width: 1024px){
+      header{
+          flex-direction: column;
+      }
+      .main-header,
+      .main-header p{
+          width: 100%;
+          text-align: center;
+      }
+
+      h1{
+          width: 100%;
+      }
+      .rating{
+          flex-direction: column;
+      }
+
+      .rating{
+          margin-left: 1px;
+      }
+
+      .stars{
+          margin-right: 0px;
+          margin-bottom: 8px;
+      }
+
+      section{
+          flex-direction: column;
+
+      }
+
+      .review{
+          width: 100%;
+      }
+      .review-3{
+          margin-top: 50px;
+      }
+  }
+
+  @media(max-width: 552px){
+      header,
+      section{
+          padding: 60px 3px;
+      }
+
+      section{
+          margin-top: -80px;
+      }
+
+      .review{
+          margin-top: 20px;
+      }
+
+      h1{
+          font-size: 32px;
+      }
+  }
